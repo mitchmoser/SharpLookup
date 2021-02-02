@@ -9,7 +9,6 @@ namespace HowToGetLocalDnsServerAddressConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine(GetDnsAdress());
-            Console.ReadKey();
         }
 
         private static IPAddress GetDnsAdress()
